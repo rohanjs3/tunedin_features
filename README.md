@@ -8,9 +8,13 @@ TunedIn aims to enhance its personalized audio briefing service by adding a new 
 
 1. **Frontend Interface**:
    - A web interface to allow users to input a script in English and select the desired language for translation.
+   - Start a flask app that servers a home page
+   - Home page should have input box, language drop down and go button
 
 2. **Backend API**:
    - A new API endpoint `/translate_script` that handles the translation requests.
+   - Handle go button and take request to backedn
+   - input verification
 
 3. **Translation Service Integration**:
    - Integration with a reliable translation service, such as Google Cloud Translation API, to perform the actual translation.
